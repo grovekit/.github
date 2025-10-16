@@ -9,6 +9,7 @@ Lightweight, self-hosted, opinionated IoT stack built on the
 - [Author](#author)
 - [Status](#status)
 - [Components](#components)
+- [Architecture](#architecture)
 - [Goals](#goals)
 - [Principles](#principles)
 - [Dependencies](#dependencies)
@@ -33,6 +34,10 @@ them may still be reserved to organization members.
 | **[Control]** | Management dashboard for browsing, monitoring and controlling connected devices. |
 | **[Scribe]** | Background service that keeps track of changes in the state of connected devices. |
 | **[@grovekit/homie-client]** | Library for publishing and interacting with devices implementing the [Homie MQTT convention][homie]. |
+
+## Architecture
+
+![Architecture](./docs/architecture.png)
 
 ## Goals
 
