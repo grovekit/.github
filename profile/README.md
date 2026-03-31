@@ -31,9 +31,11 @@ them may still be reserved to organization members.
 
 | Component | Description |
 | --- | --- |
-| **[Control]** | Management dashboard for browsing, monitoring and controlling connected devices. |
-| **[Scribe]** | Background service that keeps track of changes in the state of connected devices. |
+| **[Control]** | Management dashboard for browsing, monitoring and controlling connected devices. _Currently private._ |
+| **[Scribe]** | Background service that keeps track of changes in the state of connected devices. _Currently private._ |
+| **[@grovekit/homie-core]** | Low-level library that provides typings and utilities for working with the [Homie MQTT convention][homie]. |
 | **[@grovekit/homie-client]** | Library for publishing and interacting with devices implementing the [Homie MQTT convention][homie]. |
+| **[@grovekit/homie-fronius]** | A gateway that exposes Fronius inverters as [Homie][homie] devices via the Fronius Solar API. |
 
 ## Architecture
 
@@ -108,3 +110,5 @@ performance and developer experience.
 [Control]: https://github.com/grovekit/grovekit/tree/main/packages/services/control
 [Scribe]: https://github.com/grovekit/grovekit/tree/main/packages/services/scribe
 [@grovekit/homie-client]: https://github.com/grovekit/homie-client
+[@grovekit/homie-core]: https://github.com/grovekit/homie-core
+[@grovekit/homie-fronius]: https://github.com/grovekit/homie-fronius
