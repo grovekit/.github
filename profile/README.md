@@ -21,7 +21,7 @@ are welcome and encouraged.
 
 ## Status
 
-As of 2025-10-07, Grovekit is currently in pre-alpha development. Production
+As of 2026-06-25, Grovekit is currently in pre-alpha development. Production
 use *is highly discouraged*.
 
 ## Components
@@ -31,8 +31,8 @@ them may still be reserved to organization members.
 
 | Component | Description |
 | --- | --- |
-| **[Control]** | Management dashboard for browsing, monitoring and controlling connected devices. _Currently private._ |
-| **[Scribe]** | Background service that keeps track of changes in the state of connected devices. _Currently private._ |
+| **[@grovekit/grovekit] - Control** | Management dashboard for browsing, monitoring and controlling connected devices. |
+| **[@grovekit/grovekit] - Scribe** | Background service that keeps track of changes in the state of connected devices. |
 | **[@grovekit/homie-core]** | Low-level library that provides typings and utilities for working with the [Homie MQTT convention][homie]. |
 | **[@grovekit/homie-client]** | Library for publishing and interacting with devices implementing the [Homie MQTT convention][homie]. |
 | **[@grovekit/homie-fronius]** | A gateway that exposes Fronius inverters as [Homie][homie] devices via the Fronius Solar API. |
@@ -92,7 +92,7 @@ that share its underlying principles, including (but not limited to):
 - **[kysely]**: query builder
 - **[opifex]**: MQTT client
 - **[postgres.js]**: PostgreSQL client
-- **[@deepkit/type]**: runtime type system
+- **[@runtyped/type]**: runtime type system
 
 All of these packages have minimal dependency counts and a strong focus on
 performance and developer experience.
@@ -106,9 +106,8 @@ performance and developer experience.
 [LICENSE]: ./LICENSE
 [Node.js]: https://nodejs.org
 [TypeScript]: https://www.typescriptlang.org
-[@deepkit/type]: https://deepkit.io/en/documentation/runtime-types/getting-started
-[Control]: https://github.com/grovekit/grovekit/tree/main/packages/services/control
-[Scribe]: https://github.com/grovekit/grovekit/tree/main/packages/services/scribe
+[@runtyped/type]: https://github.com/runtyped/runtyped
+[@grovekit/grovekit]: https://github.com/grovekit/grovekit
 [@grovekit/homie-client]: https://github.com/grovekit/homie-client
 [@grovekit/homie-core]: https://github.com/grovekit/homie-core
 [@grovekit/homie-fronius]: https://github.com/grovekit/homie-fronius
